@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36AFBDFA1763565A0041F698 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36AFBDF91763565A0041F698 /* main.cpp */; };
+		36AFBDFC1763565A0041F698 /* GameTwo_Server.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36AFBDF31763565A0041F698 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				36AFBDFC1763565A0041F698 /* GameTwo_Server.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36AFBDF51763565A0041F698 /* GameTwo Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GameTwo Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AFBDF91763565A0041F698 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GameTwo_Server.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AFBDF21763565A0041F698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AFBDEA1763565A0041F698 = {
+			isa = PBXGroup;
+			children = (
+				36AFBDF81763565A0041F698 /* GameTwo Server */,
+				36AFBDF61763565A0041F698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36AFBDF61763565A0041F698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36AFBDF51763565A0041F698 /* GameTwo Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36AFBDF81763565A0041F698 /* GameTwo Server */ = {
+			isa = PBXGroup;
+			children = (
+				36AFBDF91763565A0041F698 /* main.cpp */,
+				36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */,
+			);
+			path = "GameTwo Server";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AFBDF41763565A0041F698 /* GameTwo Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AFBDFF1763565A0041F698 /* Build configuration list for PBXNativeTarget "GameTwo Server" */;
+			buildPhases = (
+				36AFBDF11763565A0041F698 /* Sources */,
+				36AFBDF21763565A0041F698 /* Frameworks */,
+				36AFBDF31763565A0041F698 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameTwo Server";
+			productName = "GameTwo Server";
+			productReference = 36AFBDF51763565A0041F698 /* GameTwo Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36AFBDEC1763565A0041F698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 36AFBDEF1763565A0041F698 /* Build configuration list for PBXProject "GameTwo Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36AFBDEA1763565A0041F698;
+			productRefGroup = 36AFBDF61763565A0041F698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36AFBDF41763565A0041F698 /* GameTwo Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AFBDF11763565A0041F698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AFBDFA1763565A0041F698 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36AFBDFD1763565A0041F698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36AFBDFE1763565A0041F698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36AFBE001763565A0041F698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36AFBE011763565A0041F698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AFBDEF1763565A0041F698 /* Build configuration list for PBXProject "GameTwo Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AFBDFD1763565A0041F698 /* Debug */,
+				36AFBDFE1763565A0041F698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AFBDFF1763565A0041F698 /* Build configuration list for PBXNativeTarget "GameTwo Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AFBE001763565A0041F698 /* Debug */,
+				36AFBE011763565A0041F698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AFBDEC1763565A0041F698 /* Project object */;
+}

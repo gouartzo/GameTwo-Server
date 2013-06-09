@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		36AFBDFA1763565A0041F698 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36AFBDF91763565A0041F698 /* main.cpp */; };
 		36AFBDFC1763565A0041F698 /* GameTwo_Server.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */; };
+		36AFBE0417646F200041F698 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36AFBE0317646F200041F698 /* Server.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		36AFBDF51763565A0041F698 /* GameTwo Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GameTwo Server"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AFBDF91763565A0041F698 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GameTwo_Server.1; sourceTree = "<group>"; };
+		36AFBE0217646F160041F698 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		36AFBE0317646F200041F698 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				36AFBDF91763565A0041F698 /* main.cpp */,
+				36AFBE0217646F160041F698 /* Server.h */,
+				36AFBE0317646F200041F698 /* Server.cpp */,
 				36AFBDFB1763565A0041F698 /* GameTwo_Server.1 */,
 			);
 			path = "GameTwo Server";
@@ -117,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AFBDFA1763565A0041F698 /* main.cpp in Sources */,
+				36AFBE0417646F200041F698 /* Server.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
